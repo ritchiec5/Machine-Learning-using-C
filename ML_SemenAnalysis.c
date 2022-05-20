@@ -31,7 +31,7 @@ int main()
 
     /******* Output ********/
     printdata(count);
-    plotGraph(count);
+    // plotGraph(count);
 
     clock_t end = clock();
     double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
@@ -203,7 +203,7 @@ void Hiddenlayer(int dataset, float arr1[traindivider][cutoff])
 void hiddenlinearregression(int dataset, int neuron, float arr1[traindivider][cutoff])
 /********************************************************/
 // dataset   : The current dataset of training/testing set
-// nueron    : The current neuron
+// neuron    : The current neuron
 /********************************************************/
 {
     int i;
